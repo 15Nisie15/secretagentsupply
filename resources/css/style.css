@@ -1,0 +1,22 @@
+/* Universal Styles */
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+ /* Banner */
+.banner {
+  background-image: url("./images/moto.jpeg")
+}
+
+ .bannertext {
+   background-color: black;
+ }
+
+/* Products */
+
+/* Footer */
