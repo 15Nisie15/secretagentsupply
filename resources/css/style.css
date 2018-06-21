@@ -2,21 +2,95 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+#site-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 960px;
 }
 
 /* Header */
 header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
   background-color: black;
-}
- /* Banner */
-.banner {
-  background-image: url("./images/moto.jpeg")
+  width: 100%;
+  height: auto;
 }
 
- .bannertext {
+header span {
+  font-size: 1rem;
+  padding: 0.66rem auto 0.66rem 1rem;
+}
+
+#logo {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+ /* Banner */
+#banner {
+  display: flex;
+  align-items: center;
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: visible;
+  }
+
+ .banner-text-box {
    background-color: black;
+   width: 20rem;
+   margin-top: 9rem;
  }
 
+.banner-text {
+  padding: 3rem 2rem;
+}
+
+ .banner-text span {
+   font-size: 1rem;
+   font-weight: bold;
+ }
+
+.banner-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Nav Bar */
+
+.nav {
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75 auto;
+}
+
 /* Products */
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.item span {
+  background-color: black;
+  text-align: center;
+}
+/* Location - Hours */
 
 /* Footer */
